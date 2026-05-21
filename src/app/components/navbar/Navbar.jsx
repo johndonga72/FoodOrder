@@ -38,6 +38,7 @@ const Navbar = () => {
         <div className={Styles.container}>
             <Link href='/' className={Styles.logo}>lamamia</Link>
             <div className={Styles.links}>
+                <DarkModeToggle />
                 {links.map(link => (
                     <Link key={link.id} href={link.url} className={Styles.link}>{link.title}</Link>
                 ))}
