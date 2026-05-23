@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import Styles from "./Navbar.module.css";
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 const links = [
     {
         id: 1,
